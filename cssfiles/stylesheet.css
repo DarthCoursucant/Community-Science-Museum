@@ -1,0 +1,95 @@
+/*Main Header Setting*/
+.header {
+    overflow: hidden;
+    background-color: #8068DC;
+    margin: -8px;
+}
+
+/* Header Buttons Code */
+.headerbutton {
+    border: 2px solid black;
+    background-color: #ffffff;
+    float: left;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+/* Header Buttons While Hover */
+.headerbutton:hover {
+    background-color: #85F7FE;
+}
+
+/* Active Link In Header*/
+.header a.active {
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+  }
+
+/* Buttons Potition Setting In Header */
+.header-right {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+/* Logo Text Position Setting */
+.header-left {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Links In Header Code */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px; 
+    line-height: 25px;
+    margin: 10px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i1.pickpik.com/photos/311/116/33/learn-mathematics-child-girl-preview.jpg")
+}
+
+/*Hero Images Code*/
+.hero-image {
+  margin-top: 15px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image Hero Images */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }

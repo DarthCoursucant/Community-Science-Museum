@@ -60,6 +60,7 @@
 /*Hero Images Code*/
 .hero-image {
     margin-top: 15px;
+    margin-left: 10px;
     height: 300px;
     width: 1400px;
     border-radius: 15px;

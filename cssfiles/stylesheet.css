@@ -80,7 +80,7 @@
     color: white;
 }
 
-.hero-text button {
+.hero-button button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -91,7 +91,7 @@
     cursor: pointer;
   }
   
-  .hero-text button:hover {
+  .hero-button button:hover {
     background-color: #555;
     color: white;
   }

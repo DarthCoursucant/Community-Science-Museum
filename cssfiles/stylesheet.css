@@ -80,6 +80,7 @@
     color: white;
 }
 
+/* Hero Button Code */
 .hero-button {
     border-radius: 15px;
     border: none;
@@ -92,7 +93,33 @@
     cursor: pointer;
   }
   
+  /* Hero Button Hover Code */
   .hero-button:hover {
     background-color: #555;
     color: white;
+  }
+
+  .wrap { flex-wrap: wrap; }
+
+  .flex-container {
+    display: flex;
+    background-color: SlateGrey;
+    margin: 0 0 10px 0;
+  }
+  
+  .flex-container > div {
+    background-color: LightGrey;
+    font-family: monospace;
+    border-radius: 15px; 
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .flex-container img {
+    width: 300px;
+    height: 250px;
   }

@@ -188,6 +188,12 @@
     color: #000000;
     text-decoration: none;
     text-align: center;
-  }
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px; 
+    line-height: 30px;
+    float: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    }
 
-  

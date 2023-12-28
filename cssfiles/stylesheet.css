@@ -124,17 +124,18 @@
   .flex-container > div {
     font-family: monospace;
     border-radius: 15px; 
-    width: 350px;
+    width: 400px;
     margin: 10px;
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 55px;
+    padding-top: 20px;
   }
 
   /* Images In The Flex Home Page Container Code */
   .flex-container img {
-    width: 300px;
+    width: 350px;
     height: 250px;
   }
 

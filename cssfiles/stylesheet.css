@@ -118,7 +118,6 @@
     display: flex;
     background-color: #ffffff;
     margin: 0 0 10px 0;
-    margin-top: 10px;
   }
   
   .flex-container > div {
@@ -131,6 +130,7 @@
     font-size: 20px;
     margin-left: 55px;
     padding-top: 20px;
+    margin-top: 50px;
   }
 
   /* Images In The Flex Home Page Container Code */
@@ -191,9 +191,8 @@
     margin: 10px;
     cursor: pointer;
     font-size: 20px; 
-    line-height: 30px;
+    line-height: 25px;
     float: auto;
     padding: 5px;
-    margin-bottom: 10px;
     }
 

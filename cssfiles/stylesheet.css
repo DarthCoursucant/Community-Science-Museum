@@ -37,6 +37,8 @@ body {
     background-color: #000000;
     color: white;
     border: 2px solid white;
+    border-radius: 15px;
+    margin: 15px;
   }
 
 /* Buttons Potition Setting In Header */

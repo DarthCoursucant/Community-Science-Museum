@@ -1,14 +1,19 @@
+/* Color Of The Body */
+body {
+  background-color: #C0A9BD;
+}
+
 /*Main Header Setting*/
 .header {
     overflow: hidden;
-    background-color: #8068DC;
+    background-color: #ffffff;
     margin: -8px;
 }
 
 /* Header Buttons Code */
 .headerbutton {
     border: 2px solid black;
-    background-color: #ffffff;
+    background-color: #85F7FE;
     float: left;
     cursor: pointer;
     border-radius: 15px;
@@ -23,7 +28,7 @@
 
 /* Header Buttons While Hover */
 .headerbutton:hover {
-    background-color: #85F7FE;
+    background-color: #AF81E4;
 }
 
 /* Active Link In Header*/
@@ -66,7 +71,7 @@
 
 /*Hero Images Code*/
 .hero-image {
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 12px;
     height: 300px;
     width: 1400px;
@@ -116,8 +121,9 @@
 
   .flex-container {
     display: flex;
-    background-color: #ffffff;
+    background-color: #C0A9BD;
     margin: 0 0 10px 0;
+    margin-top: -100px;
   }
   
   .flex-container > div {
@@ -181,7 +187,7 @@
     font-size: 15px;
   }
 
-  .content-buttons a {
+  .content-buttons a, .flex-parent a {
     background-color: #ffffff;
     border-radius: 15px;
     border: 2px solid #000000;
@@ -193,6 +199,16 @@
     font-size: 20px; 
     line-height: 25px;
     float: auto;
-    padding: 5px;
     }
 
+    .content-buttons a {
+      padding: 5px;
+    }
+
+    .content-buttons {
+      margin-bottom: 30px;
+    }
+
+    .flex-parent a {
+      padding: 15px;
+    }

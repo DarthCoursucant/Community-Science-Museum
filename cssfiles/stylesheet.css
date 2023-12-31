@@ -26,22 +26,22 @@ body {
 }
 
 /*Text Align Code*/
-.header a, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .flex-container > div, .flex-parent > div, .hero-button, .content-buttons a, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-text13, .hero-image14, .hero-text14, .hero-text15 {
+.header a, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .flex-container > div, .flex-parent > div, .hero-button, .content-buttons a, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-text13, .hero-image14, .hero-text14, .hero-text15, .exhibition-text, #professor, #stiller, #loan {
   text-align: center;
 }
 
 /*Font Family Code*/
-.headerbutton, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-button, .flex-container > div, .flex-parent > div, .flex-contain > div, .hero-image12, .hero-text13, .content-buttons, .logo-text, .hero-text14, .hero-text15 {
+.headerbutton, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-button, .flex-container > div, .flex-parent > div, .flex-contain > div, .hero-image12, .hero-text13, .content-buttons, .logo-text, .hero-text14, .hero-text15, .exhibition-text, #professor, #stiller, #loan {
   font-family: monospace;
 }
 
 /*Common Code On Border Radius*/
-.headerbutton, .header a.active, .header a, .hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-button, .flex-container > div, .content-buttons a, .flex-parent a, .hero-button, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-image13, .hero-image14, .hero-image15 {
+.headerbutton, .header a.active, .header a, .hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-button, .flex-container > div, .content-buttons a, .flex-parent a, .hero-button, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-image13, .hero-image14, .hero-image15, .flex-contact1 {
   border-radius: 15px;
 }
 
 /* Buttons While Hover */
-.headerbutton:hover, .flex-parent a:hover, .content-buttons a:hover, .hero-button:hover, #location:hover, #phone:hover, #email:hover {
+.headerbutton:hover, .flex-parent a:hover, .content-buttons a:hover, .hero-button:hover, #location:hover, #phone:hover, #email:hover, #professor:hover, #stiller:hover, #loan:hover  {
     background-color: #AF81E4;
 }
 
@@ -192,6 +192,10 @@ body {
 
   .around  { 
     justify-content: space-around; 
+  }
+
+  .column { 
+    flex-direction: column; 
   }
 
   /* Main Flex Setting*/
@@ -388,17 +392,17 @@ color: #ffffff;
   text-align: center;
 }
 
-.flex-contact, .flex-contain {
+.flex-contact, .flex-contain, .flex-contact1 {
   display: flex; 
 }
 
-.flex-contact > div, .flex-contain > div {
+.flex-contact > div, .flex-contain > div, .flex-contact1 > div {
   border: 2px solid #000000;
   background-color: #ffffff;
   margin-inline: auto;
 }
 
-.flex-contact > div {
+.flex-contact > div, .flex-contact1 > div  {
   font-size: 17px;
   margin: 10px;
   line-height: 25px;
@@ -421,10 +425,20 @@ color: #ffffff;
   height: 400px;
 }
 
-.text-contact, .contactform, .flex-contact {
+.text-contact, .contactform, .flex-contact, .exhibition-text {
   padding-top: 40px;
 }
 
-.flex-contact {
+.flex-contact  {
   margin-left: 170px;
 }
+
+.flex-contact1 > div {
+  width: 450px;
+  height: 400px;
+}
+
+.flex-contact1 {
+  margin-left: 50px;
+}
+

@@ -225,27 +225,27 @@ body {
 
   /*Setting Different Background Colors For The Flex Boxes*/
   .cosmology {
-    background-color: aquamarine;
+    background-color: #A4ED9B;
   }
 
   .evalution {
-    background-color: brown;
+    background-color: #7CC2F6;
   }
 
   .biology {
-    background-color: hotpink;
+    background-color: #F89F5B;
   }
 
   .robots {
-    background-color: darkkhaki;
+    background-color: #F89F5B;
   }
 
   .ecology {
-    background-color: lime;
+    background-color: #A4ED9B
   }
 
   .exhil {
-    background-color: lightsalmon;
+    background-color: #7CC2F6;
   }
 
   /*Flex Setting To Hero Images*/
@@ -442,3 +442,10 @@ color: #ffffff;
   margin-left: 50px;
 }
 
+.hero-button {
+  background-color: #E784BA;
+}
+
+.content-buttons {
+  background-color: #E0B0FF;
+}

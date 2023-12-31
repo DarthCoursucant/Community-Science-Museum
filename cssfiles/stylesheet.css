@@ -69,23 +69,23 @@ body {
 }
 
 /*Hero Images Code And Photo URLs*/
-.hero-image {
+.hero-image, .hero-image6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i1.pickpik.com/photos/311/116/33/learn-mathematics-child-girl-preview.jpg")
 }
 
-.hero-image-kids {
+.hero-image-kids, .hero-image7 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1485460535564-844461f37f77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&w=1000&q=80')
 }
 
-.hero-image-teachers {
+.hero-image-teachers, .hero-image8  {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://bib.kuleuven.be/2bergen/mgas/afbeeldingen/generieke-afbeeldingen/samuel-zeller-113381-unsplash.jpg/image')
 }
 
-.hero-image-researchers {
+.hero-image-researchers, .hero-image9 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lillestrom-osteopati.no/wp-content/uploads/2017/05/jesse-orrico-60373.jpg')
 }
 
-.hero-image-about {
+.hero-image-about, .hero-image10 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/Photo%20by%20Roberto%20Nickson%20on%20Unsplash-%20Smithsonian%20National%20Museum%20of%20Natural%20History%2C%20Washington%2C%20United%20States.jpg')
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 /*Hero Images Code*/
-.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5 {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10   {
     margin-top: 30px;
     margin-left: 12px;
     border-radius: 15px;
@@ -116,7 +116,7 @@ body {
     position: relative;
 }
 
-.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5 {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10  {
   width: 1400px;
 }
 
@@ -128,7 +128,7 @@ body {
   height: 600px;
 }
 
-.hero-image3, .hero-image5 {
+.hero-image3, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10 {
   height: 250px;
 }
 
@@ -141,7 +141,7 @@ body {
 }
 
 /* Place text in the middle of the image Hero Images */
-.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5 {
+.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10 {
     text-align: center;
     font-family: monospace;
     position: absolute;
@@ -151,7 +151,7 @@ body {
     color: white;
 }
 
-.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5 {
+.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10 {
   font-size: 20px;
 }
 

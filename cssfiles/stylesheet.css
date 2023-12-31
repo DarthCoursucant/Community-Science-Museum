@@ -65,6 +65,7 @@ body {
     margin: 10px;
 }
 
+/*Hero Images Code And Photo URLs*/
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i1.pickpik.com/photos/311/116/33/learn-mathematics-child-girl-preview.jpg")
 }

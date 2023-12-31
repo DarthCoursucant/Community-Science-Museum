@@ -119,6 +119,7 @@ body {
     justify-content: space-around; 
   }
 
+  /* Main Flex Setting*/
   .flex-container {
     display: flex;
     background-color: #C0A9BD;
@@ -126,6 +127,7 @@ body {
     margin-top: -150px;
   }
   
+  /*The Different Divs Setting In Main Flex*/
   .flex-container > div {
     font-family: monospace;
     border-radius: 15px; 
@@ -187,6 +189,7 @@ body {
     font-size: 15px;
   }
 
+  
   .content-buttons a, .flex-parent a {
     background-color: #ffffff;
     border-radius: 15px;

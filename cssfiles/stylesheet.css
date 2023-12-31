@@ -85,8 +85,12 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lillestrom-osteopati.no/wp-content/uploads/2017/05/jesse-orrico-60373.jpg')
 }
 
+.hero-image-about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/Photo%20by%20Roberto%20Nickson%20on%20Unsplash-%20Smithsonian%20National%20Museum%20of%20Natural%20History%2C%20Washington%2C%20United%20States.jpg')
+}
+
 /*Hero Images Code*/
-.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about {
     margin-top: 30px;
     margin-left: 12px;
     width: 1400px;
@@ -101,12 +105,12 @@ body {
   height: 300px;
 }
 
-.hero-image-kids, .hero-image-teachers, .hero-image-researchers {
+.hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about {
   height: 600px;
 }
 
 /* Place text in the middle of the image Hero Images */
-.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers {
+.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about {
     text-align: center;
     font-family: monospace;
     position: absolute;
@@ -116,7 +120,7 @@ body {
     color: white;
 }
 
-.hero-text-kids, .hero-image-teachers, .hero-text-researchers {
+.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about {
   font-size: 20px;
   font-family: monospace;
 }

@@ -89,16 +89,35 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/Photo%20by%20Roberto%20Nickson%20on%20Unsplash-%20Smithsonian%20National%20Museum%20of%20Natural%20History%2C%20Washington%2C%20United%20States.jpg')
 }
 
+.hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://virmuze-bucket.s3.amazonaws.com/exhibit_main_logo/exhibit_logo/2018/03/09/ef8c6ef_exhibit_logo.jpg')
+}
+
+.hero-image3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/photo/2015/09/24/22/11/genoa-956405_1280.jpg')
+}
+
+.hero-image4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh4.googleusercontent.com/TnUFR-GSlIFUedR5_7T4q-jww_rH3rqvcHhAGBjCF862l8rBHIx9cO0ZNcQkPqcF0iy_-JRH8poeltHnb9k_EEzd1XyXhaXkiCyutuq-CoFclVvZnZ4W_AOUcrA6JzTmk8HM3yk9')
+}
+
+.hero-image5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://ec.europa.eu/regional_policy/rest/projects/upload/176_4309_image2.jpg')
+}
+
 /*Hero Images Code*/
-.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5 {
     margin-top: 30px;
     margin-left: 12px;
-    width: 1400px;
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5 {
+  width: 1400px;
 }
 
 .hero-image {
@@ -109,8 +128,20 @@ body {
   height: 600px;
 }
 
+.hero-image3, .hero-image5 {
+  height: 250px;
+}
+
+.hero-image4 {
+  height: 500px;
+}
+
+.hero-image2 {
+  height: 400px;
+}
+
 /* Place text in the middle of the image Hero Images */
-.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about {
+.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5 {
     text-align: center;
     font-family: monospace;
     position: absolute;
@@ -120,9 +151,8 @@ body {
     color: white;
 }
 
-.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about {
+.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5 {
   font-size: 20px;
-  font-family: monospace;
 }
 
 /* Hero Button Code */
@@ -142,7 +172,7 @@ body {
   /*Flex Properoties*/
   .wrap { flex-wrap: wrap; }
 
-  .around { 
+  .around  { 
     justify-content: space-around; 
   }
 
@@ -256,12 +286,12 @@ body {
 
 
     /*3 Below Are The CSS Code For The Information Boxes*/
-.flex-contact {
+.flex-container-1, .flex-container-2 {
   display: flex; 
   background-color: #C0A9BD;
 }
 
-.flex-contact > div {
+.flex-container-1 > div, .flex-container-2 > div {
   border: 2px solid #000000;
   background-color: #ffffff;
   margin: 10px;
@@ -272,7 +302,7 @@ body {
   margin-inline: auto;
 }
 
-.flex-contact > div {
+.flex-container-1 > div, .flex-container-2 > div {
   width: 350px;
   height: 100px;
 }

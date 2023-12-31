@@ -253,3 +253,26 @@ body {
     .flex-parent a {
       padding: 15px;
     }
+
+
+    /*3 Below Are The CSS Code For The Information Boxes*/
+.flex-contact {
+  display: flex; 
+  background-color: #C0A9BD;
+}
+
+.flex-contact > div {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  border-radius: 15px;
+  margin-inline: auto;
+}
+
+.flex-contact > div {
+  width: 350px;
+  height: 100px;
+}

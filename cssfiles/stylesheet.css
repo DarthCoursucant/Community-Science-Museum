@@ -176,6 +176,7 @@ body {
     justify-content: space-around; 
   }
 
+
   /* Main Flex Setting*/
   .flex-container {
     display: flex;
@@ -381,24 +382,39 @@ color: #ffffff;
   text-align: center;
 }
 
-.flex-contact {
+.flex-contact, .flex-contain {
   display: flex; 
 }
 
-.flex-contact > div {
+.flex-contact > div, .flex-contain > div {
   border: 2px solid #000000;
   background-color: #ffffff;
-  margin: 10px;
   text-align: center;
-  line-height: 25px;
-  font-size: 17px;
   border-radius: 15px;
   margin-inline: auto;
 }
 
 .flex-contact > div {
+  font-size: 17px;
+  margin: 10px;
+  line-height: 25px;
+}
+
+.flex-contain > div {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: monospace;
+  margin-top: 40px;
+}
+
+.flex-contact > div {
   width: 350px;
   height: 100px;
+}
+
+.flex-contain > div {
+  width: 450px;
+  height: 400px;
 }
 
 .text-contact, .contactform, .flex-contact {

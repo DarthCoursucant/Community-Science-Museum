@@ -16,8 +16,6 @@ body {
     background-color: #85F7FE;
     float: left;
     cursor: pointer;
-    border-radius: 15px;
-    font-family: monospace;
     margin: 5px;
 }
 
@@ -27,8 +25,23 @@ body {
   margin-top: 30px;
 }
 
-/* Header Buttons While Hover */
-.headerbutton:hover, .flex-parent a:hover, .content-buttons a:hover, .hero-button:hover {
+/*Text Align Code*/
+.header a, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .flex-container > div, .flex-parent > div, .hero-button, .content-buttons a, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div {
+  text-align: center;
+}
+
+/*Font Family Code*/
+.headerbutton, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-button, .flex-container > div, .flex-parent > div, .flex-contain > div {
+  font-family: monospace;
+}
+
+/*Common Code On Border Radius*/
+.headerbutton, .header a.active, .header a, .hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10 , .hero-button, .flex-container > div, .content-buttons a, .flex-parent a, .hero-button, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div {
+  border-radius: 15px;
+}
+
+/* Buttons While Hover */
+.headerbutton:hover, .flex-parent a:hover, .content-buttons a:hover, .hero-button:hover, #location:hover, #phone:hover, #email:hover {
     background-color: #AF81E4;
 }
 
@@ -37,7 +50,6 @@ body {
     background-color: #000000;
     color: white;
     border: 2px solid white;
-    border-radius: 15px;
     margin: 15px;
   }
 
@@ -59,12 +71,10 @@ body {
 .header a {
     float: left;
     color: black;
-    text-align: center;
     padding: 5px;
     text-decoration: none;
     font-size: 17px; 
     line-height: 25px;
-    border-radius: 15px;
     margin: 10px;
 }
 
@@ -109,7 +119,6 @@ body {
 .hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10   {
     margin-top: 30px;
     margin-left: 12px;
-    border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,8 +151,6 @@ body {
 
 /* Place text in the middle of the image Hero Images */
 .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10 {
-    text-align: center;
-    font-family: monospace;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -157,9 +164,7 @@ body {
 
 /* Hero Button Code */
 .hero-button {
-    border-radius: 15px;
     border: none;
-    font-family: monospace;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
@@ -176,7 +181,6 @@ body {
     justify-content: space-around; 
   }
 
-
   /* Main Flex Setting*/
   .flex-container {
     display: flex;
@@ -187,11 +191,8 @@ body {
   
   /*The Different Divs Setting In Main Flex*/
   .flex-container > div {
-    font-family: monospace;
-    border-radius: 15px; 
     width: 400px;
     margin: 10px;
-    text-align: center;
     line-height: 40px;
     font-size: 20px;
     margin-left: 55px;
@@ -238,20 +239,16 @@ body {
   
   /*Hero Images Flex Main Setting*/
   .flex-parent > div {
-    font-family: monospace;
     width: 300px;
     height: 200px;
     margin: 10px;
-    text-align: center;
     line-height: 20px;
     font-size: 15px;
   }
 
   .hero-button {
-    text-align: center;
     line-height: 20px;
     font-size: 15px;
-    font-family: monospace;
   }
 
   .hero-button a {
@@ -261,11 +258,9 @@ body {
 
   .content-buttons a, .flex-parent a, .hero-button {
     background-color: #ffffff;
-    border-radius: 15px;
     border: 2px solid #000000;
     color: #000000;
     text-decoration: none;
-    text-align: center;
     margin: 10px;
     cursor: pointer;
     font-size: 20px; 
@@ -296,10 +291,8 @@ body {
   border: 2px solid #000000;
   background-color: #ffffff;
   margin: 10px;
-  text-align: center;
   line-height: 25px;
   font-size: 17px;
-  border-radius: 15px;
   margin-inline: auto;
 }
 
@@ -389,8 +382,6 @@ color: #ffffff;
 .flex-contact > div, .flex-contain > div {
   border: 2px solid #000000;
   background-color: #ffffff;
-  text-align: center;
-  border-radius: 15px;
   margin-inline: auto;
 }
 
@@ -403,8 +394,8 @@ color: #ffffff;
 .flex-contain > div {
   font-size: 13px;
   line-height: 20px;
-  font-family: monospace;
   margin-top: 40px;
+  text-align: center;
 }
 
 .flex-contact > div {
@@ -419,4 +410,8 @@ color: #ffffff;
 
 .text-contact, .contactform, .flex-contact {
   padding-top: 40px;
+}
+
+.flex-contact {
+  margin-left: 170px;
 }

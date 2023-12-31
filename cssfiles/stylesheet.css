@@ -78,8 +78,12 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://bib.kuleuven.be/2bergen/mgas/afbeeldingen/generieke-afbeeldingen/samuel-zeller-113381-unsplash.jpg/image')
 }
 
+.hero-image-researchers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lillestrom-osteopati.no/wp-content/uploads/2017/05/jesse-orrico-60373.jpg')
+}
+
 /*Hero Images Code*/
-.hero-image, .hero-image-kids, .hero-image-teachers {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers {
     margin-top: 30px;
     margin-left: 12px;
     width: 1400px;
@@ -94,12 +98,12 @@ body {
   height: 300px;
 }
 
-.hero-image-kids, .hero-image-teachers {
+.hero-image-kids, .hero-image-teachers, .hero-image-researchers {
   height: 600px;
 }
 
 /* Place text in the middle of the image Hero Images */
-.hero-text, .hero-text-kids, .hero-text-teachers {
+.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -108,7 +112,7 @@ body {
     color: white;
 }
 
-.hero-text-kids, .hero-image-teachers {
+.hero-text-kids, .hero-image-teachers, .hero-text-researchers {
   font-size: 20px;
 }
 

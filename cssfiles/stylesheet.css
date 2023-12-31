@@ -123,7 +123,7 @@ body {
     display: flex;
     background-color: #C0A9BD;
     margin: 0 0 10px 0;
-    margin-top: -100px;
+    margin-top: -150px;
   }
   
   .flex-container > div {
@@ -173,7 +173,7 @@ body {
   /*Flex Setting To Hero Images*/
   .flex-parent {
     display: flex;
-    padding-top: 40px;
+    padding-top: 50px;
   }
   
   /*Hero Images Flex Main Setting*/

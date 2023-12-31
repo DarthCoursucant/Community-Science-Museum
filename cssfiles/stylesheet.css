@@ -17,7 +17,8 @@ body {
     float: left;
     cursor: pointer;
     border-radius: 15px;
-    margin: 10px;
+    font-family: monospace;
+    margin: 5px;
 }
 
 .headerbutton a {
@@ -27,7 +28,7 @@ body {
 }
 
 /* Header Buttons While Hover */
-.headerbutton:hover {
+.headerbutton:hover, .flex-parent a:hover, .content-buttons a:hover, .hero-button:hover {
     background-color: #AF81E4;
 }
 
@@ -105,6 +106,7 @@ body {
 /* Place text in the middle of the image Hero Images */
 .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers {
     text-align: center;
+    font-family: monospace;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -114,12 +116,14 @@ body {
 
 .hero-text-kids, .hero-image-teachers, .hero-text-researchers {
   font-size: 20px;
+  font-family: monospace;
 }
 
 /* Hero Button Code */
 .hero-button {
     border-radius: 15px;
     border: none;
+    font-family: monospace;
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
@@ -128,13 +132,6 @@ body {
     text-align: center;
     cursor: pointer;
   }
-  
-  /* Hero Button Hover Code */
-  .hero-button:hover {
-    background-color: #555;
-    color: white;
-  }
-
 
   /*Flex Properoties*/
   .wrap { flex-wrap: wrap; }

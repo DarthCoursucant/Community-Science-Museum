@@ -474,7 +474,7 @@ color: #ffffff;
   }
   
   .logo-text a {
-    heigth: 30px;
+    height: 30px;
     width: 70px;
     margin-left: 10px;
     font-size: 15px;
@@ -643,9 +643,20 @@ color: #ffffff;
     padding-left: 10px;
   }
 
-  .hero-image-about, .hero-text-about {
+  .hero-image-about, .hero-text-about, .hero-image13, .hero-text13, .hero-image11, .hero-image11, .hero-image15, .hero-text15, .hero-image12, .hero-text12, .hero-image14, .hero-text14 {
     width: 500px;
     text-align: center;
     font-size: 15px;
+  }
+  
+  .hero-image11 {
+    margin-top: 50px;
+  }
+
+  .flex-contact1 > div {
+    width: 150px;
+    height: 600px;
+    border-radius: 15px;
+    font-size: 11px;
   }
 }

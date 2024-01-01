@@ -398,8 +398,11 @@ color: #ffffff;
 
 .flex-contact > div, .flex-contain > div, .flex-contact1 > div {
   border: 2px solid #000000;
-  background-color: #ffffff;
   margin-inline: auto;
+}
+
+.flex-contact > div, .flex-contain > div {
+  background-color: #ffffff;
 }
 
 .flex-contact > div, .flex-contact1 > div  {
@@ -448,4 +451,8 @@ color: #ffffff;
 
 .content-buttons {
   background-color: #E0B0FF;
+}
+
+#professor, #stiller, #loan {
+  background-color: #EFEB68;
 }

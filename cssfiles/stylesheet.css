@@ -26,17 +26,17 @@ body {
 }
 
 /*Text Align Code*/
-.header a, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .flex-container > div, .flex-parent > div, .hero-button, .content-buttons a, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-text13, .hero-image14, .hero-text14, .hero-text15, .exhibition-text, #professor, #stiller, #loan {
+.header a, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .flex-container > div, .flex-parent > div, .hero-button, .content-buttons a, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-text13, .hero-image14, .hero-text14, .hero-text15, .exhibition-text, #professor, #stiller, #loan, .hero-text50, .flex-container-program, .program-text {
   text-align: center;
 }
 
 /*Font Family Code*/
-.headerbutton, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-button, .flex-container > div, .flex-parent > div, .flex-contain > div, .hero-image12, .hero-text13, .content-buttons, .logo-text, .hero-text14, .hero-text15, .exhibition-text, #professor, #stiller, #loan {
+.headerbutton, .hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-button, .flex-container > div, .flex-parent > div, .flex-contain > div, .hero-image12, .hero-text13, .content-buttons, .logo-text, .hero-text14, .hero-text15, .exhibition-text, #professor, #stiller, #loan, .hero-text50, .flex-container-program, .program-text {
   font-family: monospace;
 }
 
 /*Common Code On Border Radius*/
-.headerbutton, .header a.active, .header a, .hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-button, .flex-container > div, .content-buttons a, .flex-parent a, .hero-button, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-image13, .hero-image14, .hero-image15, .flex-contact1 {
+.headerbutton, .header a.active, .header a, .hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-button, .flex-container > div, .content-buttons a, .flex-parent a, .hero-button, .flex-container-1 > div, .flex-container-2 > div, .flex-contact > div, .flex-contain > div, .hero-image12, .hero-image13, .hero-image14, .hero-image15, .flex-contact1, .hero-image50, .flex-container-program {
   border-radius: 15px;
 }
 
@@ -99,7 +99,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/Photo%20by%20Roberto%20Nickson%20on%20Unsplash-%20Smithsonian%20National%20Museum%20of%20Natural%20History%2C%20Washington%2C%20United%20States.jpg')
 }
 
-.hero-image2 {
+.hero-image2, .hero-image50 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://virmuze-bucket.s3.amazonaws.com/exhibit_main_logo/exhibit_logo/2018/03/09/ef8c6ef_exhibit_logo.jpg')
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 /*Hero Images Code*/
-.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-image12, .hero-image13, .hero-image14, .hero-image15 {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-image12, .hero-image13, .hero-image14, .hero-image15, .hero-image50 {
     margin-top: 30px;
     margin-left: 12px;
     background-position: center;
@@ -138,7 +138,7 @@ body {
   margin-top: 25px;
 }
 
-.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-image12, .hero-image13, .hero-image14, .hero-image15  {
+.hero-image, .hero-image-kids, .hero-image-teachers, .hero-image-researchers, .hero-image-about, .hero-image2, .hero-image3, .hero-image4, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image11, .hero-image12, .hero-image13, .hero-image14, .hero-image15, .hero-image50  {
   width: 1400px;
 }
 
@@ -150,7 +150,7 @@ body {
   height: 600px;
 }
 
-.hero-image3, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10 {
+.hero-image3, .hero-image5, .hero-image6, .hero-image7, .hero-image8, .hero-image9, .hero-image10, .hero-image50 {
   height: 250px;
 }
 
@@ -163,7 +163,7 @@ body {
 }
 
 /* Place text in the middle of the image Hero Images */
-.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-image12, .hero-text13, .hero-text14, .hero-text15  {
+.hero-text, .hero-text-kids, .hero-text-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-image12, .hero-text13, .hero-text14, .hero-text15, .hero-text50  {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -171,7 +171,7 @@ body {
     color: white;
 }
 
-.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-image12, .hero-text13, .hero-text14, .hero-text15 {
+.hero-text-kids, .hero-image-teachers, .hero-text-researchers, .hero-text-about, .hero-text-2, .hero-text-3, .hero-text4, .hero-text5, .hero-text6, .hero-text7, .hero-text8, .hero-text9, .hero-text10, .hero-image11, .hero-image12, .hero-text13, .hero-text14, .hero-text15, .hero-text50 {
   font-size: 20px;
 }
 
@@ -199,7 +199,7 @@ body {
   }
 
   /* Main Flex Setting*/
-  .flex-container {
+  .flex-container, .flex-container-program {
     display: flex;
     background-color: #C0A9BD;
     margin: 0 0 10px 0;
@@ -207,7 +207,7 @@ body {
   }
   
   /*The Different Divs Setting In Main Flex*/
-  .flex-container > div {
+  .flex-container > div, .flex-container-program > div {
     width: 400px;
     margin: 10px;
     line-height: 40px;
@@ -218,7 +218,7 @@ body {
   }
 
   /* Images In The Flex Home Page Container Code */
-  .flex-container img {
+  .flex-container img, .flex-container-program img {
     width: 350px;
     height: 250px;
   }
@@ -455,4 +455,8 @@ color: #ffffff;
 
 #professor, #stiller, #loan {
   background-color: #EFEB68;
+}
+
+.flex-container-program {
+  margin-top: 40px;
 }

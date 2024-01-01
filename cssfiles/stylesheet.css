@@ -228,7 +228,7 @@ body {
     background-color: #A4ED9B;
   }
 
-  .evalution {
+  .evalution  {
     background-color: #7CC2F6;
   }
 
@@ -246,6 +246,10 @@ body {
 
   .exhil {
     background-color: #7CC2F6;
+  }
+
+  #flex-buttom-t a {
+    background-color: #AF81E4;
   }
 
   /*Flex Setting To Hero Images*/
@@ -536,7 +540,7 @@ color: #ffffff;
     padding-left: 20px;
   }
   
-  .flex-container a {
+  .flex-container a, .flex-container-program a {
     font-size: 10px;
     line-height: 10px;
     height: 10px;
@@ -546,14 +550,14 @@ color: #ffffff;
     margin-inline: auto;
   }
   
-  .flex-container > div {
+  .flex-container > div, .flex-container-program > div {
     padding: 20px;
     font-size: 17px;
     width: 200px;
     margin-left: 2px;
   }
   
-  .flex-container img {
+  .flex-container img, .flex-container-program img {
     width: 200px;
   }
   
@@ -643,7 +647,7 @@ color: #ffffff;
     padding-left: 10px;
   }
 
-  .hero-image-about, .hero-text-about, .hero-image13, .hero-text13, .hero-image11, .hero-image11, .hero-image15, .hero-text15, .hero-image12, .hero-text12, .hero-image14, .hero-text14 {
+  .hero-image-about, .hero-text-about, .hero-image13, .hero-text13, .hero-image11, .hero-image11, .hero-image15, .hero-text15, .hero-image12, .hero-text12, .hero-image14, .hero-text14, .hero-image-kids, .hero-text-kids, .hero-image-researchers, .hero-text-researchers, .hero-image-teachers, .hero-text-teachers, .hero-image50, .hero-text50 {
     width: 500px;
     text-align: center;
     font-size: 15px;
@@ -658,5 +662,11 @@ color: #ffffff;
     height: 600px;
     border-radius: 15px;
     font-size: 11px;
+  }
+
+  .flex-contain > div {
+    width: 515px;
+    height: 350px;
+    font-size: 14px;
   }
 }

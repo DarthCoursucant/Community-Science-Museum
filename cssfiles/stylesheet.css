@@ -643,31 +643,9 @@ color: #ffffff;
     padding-left: 10px;
   }
 
-  .hero-image5, .hero-image4, .hero-image7 {
-    width: 400px;
-  }
-  
-  .hero-text5, .hero-text4, .hero-text7 {
-    width: 300px;
+  .hero-image-about, .hero-text-about {
+    width: 500px;
     text-align: center;
-  }
-  
-  .hero-image4, .hero-image7{
-    font-size: 18px;
-    line-height: 30px;
-  }
-  
-  .hero-image4 {
-    height: 280px;
-  }
-  
-  .hero-image7 {
-    height: 350px;
-    padding-top: 50px;
-  }
-
-  .hero-text6 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 15px;
   }
 }
